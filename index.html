@@ -1,289 +1,203 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Playbook: Sesión 4 - 3ro Preparatotia.</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-S6-TM4</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main id="playbook" class="playbook">
     <header>
-      <h1><span class="book-icon">📋</span> <strong>Playbook: Sesión 4 - 3ro Preparatotia.</strong></h1>
-      <div class="header-widgets">
-        <div class="timer-container">
-          <span id="timer">⏱️ 00:00</span>
-          <button id="startStop">Start</button>
-          <button id="reset">Reset</button>
+        <h1><span class="book-icon">📋</span> <strong>Playbook: Misión 4 - 3o de Preparatoria</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="global-timer">⏱️ 40:00</span>
+                <button id="global-start-stop">Start</button>
+                <button id="global-reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
         </div>
-        <div class="theme-toggle">
-          <i class="fas fa-sun"></i>
-          <label class="switch">
-            <input type="checkbox" id="theme-toggle-input">
-            <span class="slider round"></span>
-          </label>
-          <i class="fas fa-moon"></i>
-        </div>
-      </div>
     </header>
     <div class="main-container">
-      <aside class="activity-list">
-        <h2>Actividades</h2>
-        <ul>
-          <li><a href="#activity-0">📝</a></li>
-          <li><a href="#activity-1">1</a></li>
-          <li><a href="#activity-2">2</a></li>
-          <li><a href="#activity-3">3</a></li>
-          <li><a href="#activity-4">4</a></li>
-          <li><a href="#activity-5">5</a></li>
-        </ul>
-        <div class="sidebar-info">
-          <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
-          <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
-        </div>
-      </aside>
-      <main class="content">
-        <div class="progress-bar">
-          <div class="progress"></div>
-        </div>
-        <button id="toggle-dialogues">Mostrar todos los diálogos</button>
-    <section class="activity-card" id="activity-0">
-        <h2 class="activity-title"><span class="book-icon">📝</span> De un Vistazo: Sesión 4 - 3ro Preparatotia.</h2>
-        <p class="overview-subtitle">Resumen de objetivos, secuencia y entregables de la sesión.</p>
-        <div class="overview-table-container">
-            <table>
-                <thead>
-                    <tr>
-                        <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
-                        <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <strong>Objetivos de aprendizaje:</strong>
-                            <p>Al final de la sesión, los estudiantes podrán:</p>
-                            <ul>
-                                <li>Dirigir una IA generativa de imágenes para crear un "mood board" que establezca la atmósfera visual de un proyecto.</li>
-                                <li>Traducir un concepto visual en prompts para una IA de texto que genere una paleta de colores y un sistema tipográfico coherentes.</li>
-                                <li>Producir un Kit de Identidad Visual completo (mood board, colores, tipografía) orquestando diferentes herramientas de IA.</li>
-                                <li><strong>Objetivo general de la sesión:</strong> Que los estudiantes aprendan a dirigir un proceso de diseño visual, utilizando un flujo de trabajo que combina IAs de imagen y texto para crear una identidad de marca coherente y profesional.</li>
-                            </ul>
-                            <strong>Secuencia Didáctica:</strong>
-                            <ul>
-                                <li><strong>Actividad 1:</strong> Saludo Interactivo con IA — 3 min</li>
-                                <li><strong>Actividad 2:</strong> “I Can” + Desafío — 5–7 min</li>
-                                <li><strong>Actividad 3:</strong> AI GYM — 10–12 min</li>
-                                <li><strong>Actividad 4:</strong> Brain Spark — 17–20 min</li>
-                                <li><strong>Actividad 5:</strong> GNIUS STORM — 5 min</li>
-                            </ul>
-                            <strong>Entregable Clave:</strong>
-                            <ul>
-                                <li>Un Kit de Identidad Visual completo (mood board, colores y tipografía) generado mediante la orquestación de IAs de imagen y texto.</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <strong>Criterios de calidad:</strong>
-                            <ul>
-                                <li>Claridad del prompt para IA de imágenes.</li>
-                                <li>Coherencia estética entre mood board y elementos de identidad (colores/tipografía).</li>
-                                <li>Justificación de la relación entre imágenes y elementos de identidad.</li>
-                                <li>Aplicación correcta de la IA para generar los componentes del kit.</li>
-                                <li>Potencial de aplicación del kit en un caso de uso (mockup, logo, banner).</li>
-                            </ul>
-                            <strong>Materiales y preparación:</strong>
-                            <ul>
-                                <li>Proyector e internet</li>
-                                <li>IA Generativa de Imágenes (Midjourney, DALL-E, etc.)</li>
-                                <li>LLM (Xolo/otro)</li>
-                                <li>Ejemplo mínimo listo de un Kit de Identidad Visual.</li>
-                                <li>Presentación (11 diapositivas)</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
-    <section class="activity-card" id="activity-1">
-      <h2 class="activity-title">Saludo Interactivo con IA</h2>
-      <p class="activity-purpose">Enmarcar foco y activar a Xolo con perfil/intereses.</p>
-      <div class="steps">
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 1 — Bienvenida y foco</h3>
-            <p class="step-instructions">(Proyectar Diapositiva 2) Presenta el tema y su valor profesional.</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant">Equipo: hoy nos centraremos en la <strong>dirección artística asistida por IA</strong>. Aprenderemos a transformar conceptos abstractos en una <strong>identidad visual</strong> concreta y coherente, fundamental para cualquier proyecto digital.</p>
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+        </aside>
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
             </div>
-          </div>
-        </article>
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 2 — Activación con Xolo</h3>
-            <p class="step-instructions">Cada estudiante envía a Xolo: “Hola Xolo, soy [Nombre], perfil [X]; me interesa [Y]. Estoy en la sesión de Identidad Visual con IA.”</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant">Activen a Xolo con su perfil e intereses. Confirmen que comprendieron el criterio de hoy y sigan sus indicaciones personalizadas.</p>
+            <!-- ACTIVIDAD 0: DE UN VISTAZO -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Comando Central</h2>
+                <p class="overview-subtitle">Todo lo que necesitas para preparar y ejecutar esta misión en minutos.</p>
+                
+                <div class="command-section">
+                    <h3>🎯 Objetivo de Aprendizaje</h3>
+                    <div class="objective-box">
+                        <p><strong>Los estudiantes podrán:</strong> usar herramientas de IA y WebWave para generar un Kit de Identidad Visual profesional para sus proyectos y comprender la importancia de la coherencia visual y la dirección creativa con IA.</p>
+                    </div>
+                </div>
+                <div class="command-section xolo-prompt">
+                    <h3>🤖 Prompt de Referencia para XOLO (Solo para Maestro)</h3>
+                    <div class="prompt-box">
+                        <div class="prompt-header">
+                            <span class="prompt-label">⚠️ NOTA: XOLO ya conoce el tema de esta misión. Este prompt es SOLO de referencia en caso de emergencia técnica:</span>
+                            <button class="copy-btn" onclick="copyPrompt('main-prompt')">
+                                <i class="fas fa-copy"></i> Copiar
+                            </button>
+                        </div>
+                        <pre id="main-prompt">Ayúdame a crear la identidad visual de mi proyecto [describe brevemente la idea]. Primero, guíame para generar un mood board con IA de imágenes que capture su esencia visual. Luego, analiza ese resultado y crea un segundo prompt para una IA de texto que proponga una paleta de colores y un sistema tipográfico coherente con el mood board. Finalmente, explícame cómo puedo presentar este Kit de Identidad Visual de manera profesional y consistente.</pre>
+                    </div>
+                </div>
+                <div class="command-section">
+                    <h3>⚡ Puntos Esenciales de la Misión</h3>
+                    <div class="essentials-grid">
+                        <div class="essential-card">
+                            <div class="essential-icon">🎓</div>
+                            <h4>Concepto Clave</h4>
+                            <p>Coherencia Visual: Es como elegir un uniforme para tu proyecto; significa que los colores, las letras y las imágenes deben trabajar juntos para que el mensaje sea claro y profesional.</p>
+                        </div>
+                        <div class="essential-card">
+                            <div class="essential-icon">🔧</div>
+                            <h4>Habilidad Técnica</h4>
+                            <p>Usar herramientas de IA para generar mood boards, paletas de colores y sistemas tipográficos.</p>
+                        </div>
+                        <div class="essential-card">
+                            <div class="essential-icon">🧪</div>
+                            <h4>Experimentación</h4>
+                            <p>Probar con diferentes rasgos de personalidad de marca para ver cómo cambian los colores y las letras sugeridas por la IA.</p>
+                        </div>
+                        <div class="essential-card">
+                            <div class="essential-icon">💬</div>
+                            <h4>Interacción con XOLO</h4>
+                            <p>XOLO ya conoce a cada estudiante y el tema de hoy. Solo abren el chat y comienzan a aprender. Tú guías el timing y motivación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="command-section">
+                    <h3>📦 Checklist de Materiales</h3>
+                    <div class="materials-checklist">
+                        <label><input type="checkbox"> Proyector/pantalla + presentación (5 diapositivas)</label>
+                        <label><input type="checkbox"> Internet estable + Gnius Space con XOLO activo</label>
+                        <label><input type="checkbox"> Computadoras o Laptops (1 por cada 2 estudiantes)</label>
+                        <label><input type="checkbox"> Acceso a WebWave (https://webwave.me/) y herramientas de IA (ChatGPT, Gemini, Claude)</label>
+                        <label><input type="checkbox"> Guía de estilos y principios de diseño</label>
+                        <label><input type="checkbox"> ⚠️ Esta misión usa programación con BLOQUES en MakeCode</label>
+                        <label><input type="checkbox"> 📋 Para agregar extensión: En MakeCode → Extensiones → Buscar 'IA Visual' → Agregar</label>
+                    </div>
+                    <p class="care-reminder"><strong>🛡️ Cuidado del equipo:</strong> Manipular las computadoras con cuidado, no consumir alimentos cerca, verificar que la conexión a internet sea estable y cerrar sesiones al terminar.</p>
+                </div>
+                <div class="command-section">
+                    <h3>🗓️ Secuencia de la Misión (40 min)</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot">1</div>
+                            <div class="timeline-content">
+                                <strong>Intro a la Misión</strong>
+                                <span class="time-badge">2 min</span>
+                                <p>Bienvenida, I Can Statement y contexto de la misión.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot">2</div>
+                            <div class="timeline-content">
+                                <strong>A.I. Gym</strong>
+                                <span class="time-badge">8 min</span>
+                                <p>Los estudiantes abren el chat con XOLO y aprenden sobre la creación de identidades visuales y coherencia creativa (sin prompt específico).</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot">3</div>
+                            <div class="timeline-content">
+                                <strong>Brain Spark</strong>
+                                <span class="time-badge">20 min</span>
+                                <p>Idear, construir y experimentar un programa con XOLO.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot">4</div>
+                            <div class="timeline-content">
+                                <strong>Gnius STORM - Compartir</strong>
+                                <span class="time-badge">5 min</span>
+                                <p>Demostración y reflexión en parejas.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot">5</div>
+                            <div class="timeline-content">
+                                <strong>Entrega de Evidencias</strong>
+                                <span class="time-badge">5 min</span>
+                                <p>Subir capturas a Gnius Space y finalizar misión.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="command-section">
+                    <h3>🚨 Resolución Rápida de Problemas</h3>
+                    <div class="troubleshooting-list">
+                        <ul>
+                            <li><strong>Si los alumnos no pueden ingresar a Gnius Space:</strong> Activa XOLO SOS en <a href="https://xolo.gnius.club" target="_blank">xolo.gnius.club</a> para continuar la misión sin interrumpir la clase.</li>
+                            <li><strong>Si la IA no responde:</strong> Refresca la página o intenta con una herramienta alternativa (Gemini o Claude).</li>
+<li><strong>Si tienes problemas con WebWave:</strong> Revisa que estés guardando los cambios frecuentemente y que los archivos de imagen tengan el formato correcto.</li>
+<li><strong>Si hay errores en el código:</strong> Recordar a los estudiantes que XOLO puede ayudar a depurar. Pídeles que copien el error y se lo muestren a XOLO.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section class="activity-card" id="activity-2">
-      <h2 class="activity-title">“I Can Statement” + Desafío</h2>
-      <p class="activity-purpose">Alinear expectativas y definir el reto práctico.</p>
-      <div class="steps">
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 1 — Presenta el reto</h3>
-            <p class="step-instructions">(Proyectar Diapositiva 3) Describe el reto y la meta observable.</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant">El reto es crear un <strong>Kit de Identidad Visual</strong> completo y coherente utilizando <strong>IAs</strong>. Evaluaremos la calidad de su <strong>dirección de IA</strong> y la justificación estética del kit.</p>
-            </div>
-          </div>
-        </article>
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 2 — Escribe tu “I Can”</h3>
-            <p class="step-instructions">(Proyectar Diapositiva 4) Cada estudiante redacta 1 “I Can” alineado al entregable.</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant">Formula tu “Puedo…” en 1 frase: acción + criterio + resultado. Ej.: “Puedo dirigir un flujo de IAs usando prompts visuales y textuales para lograr un Kit de Identidad Visual coherente.”</p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section class="activity-card" id="activity-3">
-      <h2 class="activity-title">AI GYM</h2>
-      <p class="activity-purpose">Formalizar el marco/técnica/herramienta central de la misión.</p>
-      <div class="steps">
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 1 — Marco del día</h3>
-            <p class="step-instructions">(Proyectar Diapositiva 5) Introduce el marco de 'Dirección de Arte con IA'.</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant">Hoy, el marco central es la <strong>'Dirección de Arte con IA'</strong>. Aprenderemos a orquestar <strong>IAs</strong> para construir una <strong>identidad visual</strong>. Un error común es aceptar la primera salida de la IA sin criterio; otro, no saber cómo refinar el <strong>prompt</strong>. Eviten esto siendo directores de arte, no meros usuarios. Usen la <strong>coherencia estética</strong> y la <strong>aplicabilidad</strong> como criterios de validación.</p>
-            </div>
-          </div>
-        </article>
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 2 — Mini-demostración</h3>
-            <p class="step-instructions">(Proyectar Diapositiva 6) Modela el flujo de trabajo completo usando el prompt central.</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant"><strong>“Xolo, ayúdame a crear la identidad visual de mi proyecto [describe brevemente la idea]. Primero,  guíame para generar un mood board con IA de imágenesque capture su esencia visual. Luego, analiza ese resultado y crea un segundo prompt para una IA de texto que proponga una paleta de colores y un sistema tipográfico coherente con el mood board. Finalmente, explícame cómo puedo presentar este Kit de Identidad Visual de manera profesional y consistente.”</strong></p>
-            </div>
-          </div>
-        </article>
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 3 — Check rápido</h3>
-            <p class="step-instructions">(Proyectar Diapositiva 7) Verifica comprensión con 2 preguntas breves.</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant">Pregunta 1: ¿Qué es más importante, la cantidad de imágenes o la <strong>coherencia estética</strong> del <strong>mood board</strong>? Pregunta 2: ¿Por qué necesitamos un <strong>LLM</strong> después de la <strong>IA de imágenes</strong> para la <strong>identidad visual</strong>?</p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section class="activity-card" id="activity-4">
-      <h2 class="activity-title">Brain Spark</h2>
-      <p class="activity-purpose">Producir el entregable tangible del Micro-Proyecto.</p>
-      <div class="steps">
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 1 — Producción</h3>
-            <p class="step-instructions">(Proyectar Diapositiva 8) Indica la producción del Kit de Identidad Visual y el checklist de calidad. Tiempo de trabajo autónomo.</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant">N/A</p>
-            </div>
-          </div>
-        </article>
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 2 — Iteración</h3>
-            <p class="step-instructions">(Proyectar Diapositiva 9) Pide una mejora concreta basada en los criterios del marco.</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant">Antes de cerrar: valida que tu <strong>paleta de colores</strong> y <strong>tipografía</strong> reflejen fielmente la estética de tu <strong>mood board</strong>. Si no hay <strong>coherencia</strong>, refina tus <strong>prompts</strong> o ajusta la selección. Piensa en cómo este kit se aplicaría a un <strong>mockup</strong> de una pantalla de app.</p>
-            </div>
-          </div>
-        </article>
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 3 — Evidencia</h3>
-            <p class="step-instructions">(Proyectar Diapositiva 10) Solicita la entrega del Kit de Identidad Visual.</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant">Entrega con nombre: S04_KitIdentidad_[Equipo/Nombre]. Incluye tu <strong>mood board</strong> (3 imágenes) y el texto con la <strong>paleta de colores</strong> y <strong>tipografía</strong> generada por el <strong>LLM</strong>, junto con una breve justificación de tu proceso.</p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section class="activity-card" id="activity-5">
-      <h2 class="activity-title">GNIUS STORM</h2>
-      <p class="activity-purpose">Exhibir resultados y cerrar con síntesis accionable.</p>
-      <div class="steps">
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 1 — Showcase relámpago</h3>
-            <p class="step-instructions">2–3 presentaciones de 30–45 s, centradas en evidencia y criterio.</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant">Enfoca tu presentación en decisión clave, evidencia y justificación de criterio.</p>
-            </div>
-          </div>
-        </article>
-        <article class="step-card">
-          <div class="step-content">
-            <h3 class="step-title">Paso 2 — Cierre ejecutivo</h3>
-            <p class="step-instructions">(Proyectar Diapositiva 11) Entrega la síntesis: 1 aprendizaje, 1 criterio de mayor impacto y 1 siguiente paso fuera del aula.</p>
-          </div>
-          <div class="collapsible">
-            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
-            <div class="collapsible-content">
-              <p class="dialogue assistant">Síntesis: Hoy aprendimos a dirigir <strong>IAs</strong> para crear <strong>identidades visuales</strong>. Criterio clave: La <strong>coherencia estética</strong> y la <strong>aplicabilidad</strong> del <strong>kit</strong>. Siguiente paso aplicado: Utilizar este <strong>kit</strong> para diseñar un primer <strong>mockup</strong> de una <strong>interfaz de usuario</strong> o un material de marketing digital.</p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-      </main>
-    </div>
-  </main>
-  <script src="script.js"></script>
-</body>
-</html>
+            <!-- ACTIVIDAD 1: INTRO A LA MISIÓN -->
+            <div class="activity-card" id="activity-1">
+                <div class="activity-header">
+                    <h2>🚀 Actividad 1: Intro a la Misión</h2>
+                    <div class="activity-timer">
+                        <span class="activity-duration">⏱️ 2:00</span>
+                        <button class="timer-start-btn" data-duration="120">Iniciar</button>
+                    </div>
+                </div>
+                <div class="roles-section">
+                    <div class="role-card role-teacher">
+                        <h4>👨‍🏫 Rol del Maestro</h4>
+                        <ul>
+                            <li>Dar la bienvenida con energía.</li>
+                            <li>Pedir a los alumnos que ingresen a Gnius Space.</li>
+                            <li>Proyecta diapositiva 1 con el I Can Statement.</li>
+                            <li>Motiva: "¡Hoy le daremos una identidad visual única y profesional a sus ideas digitales!".</li>
+                        </ul>
+                    </div>
+                    <div class="role-card role-xolo">
+                        <h4>🤖 Rol de XOLO</h4>
+                        <ul>
+                            <li>XOLO ya está listo y conoce a cada estudiante.</li>
+                            <li>Sabe que hoy toca aprender sobre Identidad Visual y Coherencia Creativa.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card role-student">
+                        <h4>👦 Rol del Alumno</h4>
+                        <ul>
+                            <li>Escucha la misión del día.</li>
+                            <li>Loguearse en Gnius Space.</li>
+                            <li>Preparación para trabajar en parejas.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slide-reference">
+                    <h4>📊 Diapositiva 1: I Can Statement</h4>
+                    <div class="slide-content">
+                        <p><strong>🎯 Hoy seré capaz de:</strong></p>
+                        <p class="highlight-text">🤖 A diseñar un Kit de Identidad Visual completo para que sus proyectos tengan un estilo profesional y coherente.</p
